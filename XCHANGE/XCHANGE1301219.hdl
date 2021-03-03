@@ -1,0 +1,58 @@
+/** XCHANGE EXAMPLE **/
+
+CHIP XCHANGE1301219 {
+
+    IN a[16], b[16];
+    OUT out[16];
+
+
+    PARTS:
+    Nand(a=a[8], b=b[0], out=s0);
+    Nand(a=s0, b=s0, out=out[0]);
+
+    Nand(a=a[9], b=b[1], out=s1);
+    Nand(a=s1, b=s1, out=out[1]);
+
+    Nand(a=a[10], b=b[2], out=s2);
+    Nand(a=s2, b=s2, out=out[2]);
+
+    Nand(a=a[11], b=b[3], out=s3);
+    Nand(a=s3, b=s3, out=out[3]);
+
+    Nand(a=a[12], b=b[4], out=s4);
+    Nand(a=s4, b=s4, out=out[4]);
+
+    Nand(a=a[13], b=b[5], out=s5);
+    Nand(a=s5, b=s5, out=out[5]);
+
+    Nand(a=a[14], b=b[6], out=s6);
+    Nand(a=s6, b=s6, out=out[6]);
+
+    Nand(a=a[15], b=b[7], out=s7);
+    Nand(a=s7, b=s7, out=out[7]);
+
+    Nand(a=a[8], b=b[0], out=s8);
+    Nand(a=s8, b=s8, out=out[8]);
+
+    Nand(a=a[9], b=b[1], out=s9);
+    Nand(a=s9, b=s9, out=out[9]);
+
+    Nand(a=a[10], b=b[2], out=s10);
+    Nand(a=s10, b=s10, out=out[10]);
+
+    Nand(a=a[11], b=b[3], out=s11);
+    Nand(a=s11, b=s11, out=out[11]);
+
+    Nand(a=a[12], b=b[4], out=s12);
+    Nand(a=s12, b=s12, out=out[12]);
+
+    Nand(a=a[13], b=b[5], out=s13);
+    Nand(a=s13, b=s13, out=out[13]);
+
+    Nand(a=a[14], b=b[6], out=s14);
+    Nand(a=s14, b=s14, out=out[14]);
+
+    Nand(a=a[15], b=b[7], out=s15);
+    Nand(a=s15, b=s15, out=out[15]);
+
+}
